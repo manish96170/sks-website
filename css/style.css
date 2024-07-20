@@ -887,3 +887,18 @@
 /*** copyright end ***/
 
 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-left: -23px !important;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    transform: translate(-50%, -50%);
+  }
